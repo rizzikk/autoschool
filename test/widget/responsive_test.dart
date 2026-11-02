@@ -107,7 +107,10 @@ void main() {
                   of: find.byType(ListView), matching: find.byType(Scrollable))
               .first);
       expect(pager, findsOneWidget);
-      await tester.tap(find.byTooltip('Следующая страница'));
+      final next = find.byTooltip('Следующая страница');
+      await tester.ensureVisible(next);
+      await tester.pump();
+      await tester.tap(next);
       await settle(tester, 'на второй странице');
       expect(find.text('Записи 11–20 из 25'), findsOneWidget);
       expect(tester.takeException(), isNull);
