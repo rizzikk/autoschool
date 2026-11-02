@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: autoschool-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: PB_SUPERUSER_EMAIL
+        value: root@autoschool.test
+      - key: PB_SUPERUSER_PASSWORD
+        generateValue: true

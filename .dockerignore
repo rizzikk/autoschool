@@ -1,0 +1,12 @@
+.git
+.github
+.vscode
+.dart_tool
+build
+lib
+test
+web
+docs
+config
+pocketbase/pb_data
+node_modules

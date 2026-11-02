@@ -1,0 +1,100 @@
+name: Проверка и публикация
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  POCKETBASE_VERSION: 0.40.6
+
+jobs:
+  server:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Установка PocketBase
+        run: |
+          curl -sSL -o pb.zip "https://github.com/pocketbase/pocketbase/releases/download/v${POCKETBASE_VERSION}/pocketbase_${POCKETBASE_VERSION}_linux_amd64.zip"
+          unzip -q pb.zip -d "$RUNNER_TEMP/pb"
+          chmod +x "$RUNNER_TEMP/pb/pocketbase"
+
+      - name: Запуск сервера
+        run: |
+          "$RUNNER_TEMP/pb/pocketbase" superuser upsert root@autoschool.test 'Autoschool123!' --dir="$RUNNER_TEMP/pb_data"
+          nohup "$RUNNER_TEMP/pb/pocketbase" serve --http=127.0.0.1:8090 \
+            --dir="$RUNNER_TEMP/pb_data" \
+            --hooksDir="$GITHUB_WORKSPACE/pocketbase/pb_hooks" > "$RUNNER_TEMP/pb.log" 2>&1 &
+          for i in $(seq 1 30); do
+            curl -sf http://127.0.0.1:8090/api/health && exit 0
+            sleep 1
+          done
+          cat "$RUNNER_TEMP/pb.log"
+          exit 1
+
+      - name: Схема и тестовые данные
+        working-directory: pocketbase/tools
+        run: node setup.mjs --reset
+
+      - name: Проверка сервера
+        working-directory: pocketbase/tools
+        run: node verify.mjs
+
+      - name: Журнал сервера при ошибке
+        if: failure()
+        run: cat "$RUNNER_TEMP/pb.log"
+
+  client:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.41.6
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+      - run: dart format --output=none --set-exit-if-changed lib test
+      - run: flutter analyze
+      - run: flutter test
+
+      - name: Сборка для GitHub Pages
+        run: >
+          flutter build web --release
+          --base-href "/${{ github.event.repository.name }}/"
+          --dart-define=API_BASE_URL=${{ vars.API_BASE_URL }}
+
+      - name: 404.html для прямых ссылок
+        run: cp build/web/index.html build/web/404.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    needs: [server, client]
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

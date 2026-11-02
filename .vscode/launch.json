@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Автошкола (Chrome, порт 5555)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": ["--web-port=5555", "--dart-define-from-file=config/dev.json"]
+    }
+  ]
+}

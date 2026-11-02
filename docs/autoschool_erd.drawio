@@ -1,0 +1,1716 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="log" name="Логическая модель">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1690" pageHeight="1290" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="log_users" value="Пользователь" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="log_users_0" value="Код пользователя (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_users">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_users_1" value="Электронная почта" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_users">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_users_2" value="Хеш пароля" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_users">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_users_3" value="Имя" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_users">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_users_4" value="Роль" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_users">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories" value="Категория" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="250" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_0" value="Код категории (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_1" value="Обозначение" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_2" value="Название" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_3" value="Минимальный возраст" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_4" value="Часы теории" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_5" value="Часы вождения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_6" value="Стоимость обучения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_7" value="Описание" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_categories_8" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_categories">
+          <mxGeometry x="0" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets" value="Курсант" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="250" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_0" value="Код курсанта (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_1" value="Код пользователя (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_2" value="Код категории (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_3" value="ФИО" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_4" value="Дата рождения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_5" value="Телефон" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_6" value="Статус обучения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_7" value="Дата зачисления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cadets_8" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cadets">
+          <mxGeometry x="0" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates" value="Медицинская справка" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="240" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates_0" value="Код справки (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_medical_certificates">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates_1" value="Код курсанта (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_medical_certificates">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates_2" value="Номер справки" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_medical_certificates">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates_3" value="Дата выдачи" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_medical_certificates">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates_4" value="Действует до" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_medical_certificates">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates_5" value="Медицинское учреждение" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_medical_certificates">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_medical_certificates_6" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_medical_certificates">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors" value="Инструктор" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_0" value="Код инструктора (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_1" value="Код пользователя (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_2" value="ФИО" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_3" value="Телефон" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_4" value="Стаж (лет)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_5" value="Номер удостоверения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_6" value="Дата приёма на работу" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructors_7" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructors">
+          <mxGeometry x="0" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars" value="Автомобиль" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="250" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_0" value="Код автомобиля (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_1" value="Государственный номер" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_2" value="Модель" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_3" value="Год выпуска" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_4" value="Код категории (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_5" value="Коробка передач" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_6" value="Пробег" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_7" value="Состояние" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_8" value="Дата следующего ТО" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_cars_9" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_cars">
+          <mxGeometry x="0" y="300" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups" value="Учебная группа" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="240" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups_0" value="Код группы (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_groups">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups_1" value="Название" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_groups">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups_2" value="Код категории (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_groups">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups_3" value="Код куратора (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_groups">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups_4" value="Дата начала" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_groups">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups_5" value="Дата окончания" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_groups">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_groups_6" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_groups">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons" value="Занятие" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="530" width="250" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_0" value="Код занятия (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_1" value="Код курсанта (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_2" value="Код инструктора (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_3" value="Код автомобиля (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_4" value="Начало" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_5" value="Окончание" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_6" value="Вид занятия" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_7" value="Статус" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_8" value="Оценка" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_9" value="Заметки" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="300" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_lessons_10" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_lessons">
+          <mxGeometry x="0" y="330" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams" value="Экзамен" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="530" width="250" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_0" value="Код экзамена (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_1" value="Код курсанта (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_2" value="Тип экзамена" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_3" value="Дата экзамена" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_4" value="Результат" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_5" value="Баллы" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_6" value="Номер попытки" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_7" value="Экзаменатор" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_exams_8" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_exams">
+          <mxGeometry x="0" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments" value="Платёж" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="900" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_0" value="Код платежа (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_1" value="Код курсанта (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_2" value="Сумма" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_3" value="Дата платежа" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_4" value="Способ оплаты" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_5" value="Назначение" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_6" value="Комментарий" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_payments_7" value="Признак удаления" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_payments">
+          <mxGeometry x="0" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructor_categories" value="Категория инструктора" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="70" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructor_categories_0" value="Код записи (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructor_categories">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructor_categories_1" value="Код инструктора (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructor_categories">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_instructor_categories_2" value="Код категории (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_instructor_categories">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_group_cadets" value="Состав группы" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="70" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="log_group_cadets_0" value="Код записи (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_group_cadets">
+          <mxGeometry x="0" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_group_cadets_1" value="Код группы (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_group_cadets">
+          <mxGeometry x="0" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_group_cadets_2" value="Код курсанта (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="log_group_cadets">
+          <mxGeometry x="0" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="log_r0" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToOne;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_users_0" target="log_cadets_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="255.0" />
+              <mxPoint x="334" y="845.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r1" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToOne;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_users_0" target="log_instructors_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="255.0" />
+              <mxPoint x="334" y="145.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r2" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_categories_0" target="log_cadets_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="515.0" />
+              <mxPoint x="360" y="875.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r3" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_categories_0" target="log_cars_4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="515.0" />
+              <mxPoint x="360" y="555.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r4" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_categories_0" target="log_groups_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="515.0" />
+              <mxPoint x="360" y="30" />
+              <mxPoint x="856" y="30" />
+              <mxPoint x="856" y="345.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r5" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_categories_0" target="log_instructor_categories_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="515.0" />
+              <mxPoint x="360" y="30" />
+              <mxPoint x="876" y="30" />
+              <mxPoint x="876" y="175.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r6" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_instructors_0" target="log_instructor_categories_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="115.0" />
+              <mxPoint x="750" y="145.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r7" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERzeroToOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_instructors_0" target="log_groups_3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="127.0" />
+              <mxPoint x="750" y="375.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r8" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_instructors_0" target="log_lessons_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="115.0" />
+              <mxPoint x="750" y="635.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r9" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_cars_0" target="log_lessons_3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="774" y="435.0" />
+              <mxPoint x="774" y="665.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r10" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_cadets_0" target="log_lessons_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="815.0" />
+              <mxPoint x="798" y="605.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r11" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_cadets_0" target="log_group_cadets_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="815.0" />
+              <mxPoint x="798" y="960" />
+              <mxPoint x="1290" y="960" />
+              <mxPoint x="1290" y="175.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r12" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToOne;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_cadets_0" target="log_medical_certificates_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="815.0" />
+              <mxPoint x="798" y="960" />
+              <mxPoint x="1290" y="960" />
+              <mxPoint x="1290" y="315.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r13" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_cadets_0" target="log_exams_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="815.0" />
+              <mxPoint x="798" y="960" />
+              <mxPoint x="1290" y="960" />
+              <mxPoint x="1290" y="605.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r14" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_cadets_0" target="log_payments_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="815.0" />
+              <mxPoint x="798" y="960" />
+              <mxPoint x="1290" y="960" />
+              <mxPoint x="1290" y="975.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_r15" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="log_groups_0" target="log_group_cadets_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1174" y="285.0" />
+              <mxPoint x="1174" y="145.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="phys" name="Физическая модель">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1810" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="phys_users" value="users" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_users_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_users">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_users_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_users_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_users_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_users">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_users_row1_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_users_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row1_n" value="email TEXT NN, UQ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_users_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_users">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_users_row2_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_users_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row2_n" value="password TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_users_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_users">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_users_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_users_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row3_n" value="name TEXT(255)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_users_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_users">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_users_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_users_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_users_row4_n" value="role TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_users_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories" value="categories" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_categories_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_categories_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row1_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row1_n" value="code TEXT(4) NN, UQ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row2_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row2_n" value="title TEXT(80) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row3_n" value="min_age INTEGER NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row4_n" value="theory_hours INTEGER NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row5_n" value="practice_hours INTEGER NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row6_n" value="price INTEGER NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row7_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row7_n" value="description TEXT(500)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_categories">
+          <mxGeometry x="0" y="270" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_categories_row8_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_categories_row8">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_categories_row8_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_categories_row8">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets" value="cadets" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="800" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_cadets_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_cadets_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row1_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_cadets_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row1_n" value="user TEXT(15) NN, UQ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row2_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_cadets_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row2_n" value="category TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cadets_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row3_n" value="full_name TEXT(100) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cadets_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row4_n" value="birth_date DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cadets_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row5_n" value="phone TEXT(12) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cadets_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row6_n" value="status TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row7_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cadets_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row7_n" value="enrolled_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cadets">
+          <mxGeometry x="0" y="270" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cadets_row8_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cadets_row8">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cadets_row8_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cadets_row8">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates" value="medical_certificates" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="70" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_medical_certificates">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_medical_certificates_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_medical_certificates_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_medical_certificates">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row1_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_medical_certificates_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row1_n" value="cadet TEXT(15) NN, UQ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_medical_certificates_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_medical_certificates">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row2_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_medical_certificates_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row2_n" value="number TEXT(30) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_medical_certificates_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_medical_certificates">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_medical_certificates_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row3_n" value="issued_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_medical_certificates_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_medical_certificates">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_medical_certificates_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row4_n" value="valid_until DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_medical_certificates_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_medical_certificates">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_medical_certificates_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row5_n" value="clinic TEXT(120) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_medical_certificates_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_medical_certificates">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_medical_certificates_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_medical_certificates_row6_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_medical_certificates_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors" value="instructors" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_instructors_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_instructors_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row1_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_instructors_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row1_n" value="user TEXT(15) NN, UQ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row2_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_instructors_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row2_n" value="full_name TEXT(100) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_instructors_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row3_n" value="phone TEXT(12) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_instructors_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row4_n" value="experience_years INTEGER" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_instructors_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row5_n" value="license_no TEXT(11) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_instructors_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row6_n" value="hired_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row7_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_instructors_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row7_n" value="categories JSON NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_instructors">
+          <mxGeometry x="0" y="270" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_instructors_row8_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_instructors_row8">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_instructors_row8_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_instructors_row8">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars" value="cars" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="280" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_cars_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_cars_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row1_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row1_n" value="plate TEXT NN, UQ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row2_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row2_n" value="model TEXT(80) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row3_n" value="year INTEGER NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row4_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_cars_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row4_n" value="category TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row5_n" value="transmission TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row6_n" value="mileage INTEGER" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row7_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row7_n" value="status TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="270" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row8_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row8">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row8_n" value="next_service DATETIME" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row8">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_cars">
+          <mxGeometry x="0" y="300" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_cars_row9_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_cars_row9">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_cars_row9_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_cars_row9">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups" value="groups" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="70" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_groups_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_groups_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row1_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_groups_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row1_n" value="name TEXT(60) NN, UQ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_groups_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row2_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_groups_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row2_n" value="category TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_groups_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row3_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_groups_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row3_n" value="curator TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_groups_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_groups_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row4_n" value="starts_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_groups_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_groups_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row5_n" value="ends_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_groups_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row6_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_groups_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row6_n" value="cadets JSON" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_groups_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_groups">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_groups_row7_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_groups_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_groups_row7_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_groups_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons" value="lessons" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="430" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_lessons_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_lessons_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row1_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_lessons_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row1_n" value="cadet TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row2_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_lessons_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row2_n" value="instructor TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row3_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_lessons_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row3_n" value="car TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_lessons_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row4_n" value="starts_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_lessons_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row5_n" value="ends_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_lessons_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row6_n" value="kind TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row7_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_lessons_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row7_n" value="status TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="270" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row8_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_lessons_row8">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row8_n" value="rating INTEGER" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row8">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="300" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row9_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_lessons_row9">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row9_n" value="notes TEXT(500)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row9">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_lessons">
+          <mxGeometry x="0" y="330" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_lessons_row10_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_lessons_row10">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_lessons_row10_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_lessons_row10">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams" value="exams" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="360" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_exams_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_exams_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row1_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_exams_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row1_n" value="cadet TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row2_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_exams_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row2_n" value="type TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_exams_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row3_n" value="exam_date DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_exams_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row4_n" value="result TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_exams_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row5_n" value="score INTEGER" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_exams_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row6_n" value="attempt INTEGER NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row7_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_exams_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row7_n" value="examiner TEXT(100)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_exams">
+          <mxGeometry x="0" y="270" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_exams_row8_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_exams_row8">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_exams_row8_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_exams_row8">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments" value="payments" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="710" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row0_k" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_payments_row0">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row0_n" value="id TEXT(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="phys_payments_row0">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row1_k" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="phys_payments_row1">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row1_n" value="cadet TEXT(15) NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_payments_row1">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row2_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_payments_row2">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row2_n" value="amount INTEGER NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_payments_row2">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row3_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_payments_row3">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row3_n" value="paid_at DATETIME NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_payments_row3">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row4_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_payments_row4">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row4_n" value="method TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_payments_row4">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row5_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_payments_row5">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row5_n" value="purpose TEXT NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_payments_row5">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row6_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_payments_row6">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row6_n" value="comment TEXT(300)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_payments_row6">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="phys_payments">
+          <mxGeometry x="0" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phys_payments_row7_k" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;editable=1;" vertex="1" parent="phys_payments_row7">
+          <mxGeometry x="0" y="0" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_payments_row7_n" value="deleted BOOLEAN NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="phys_payments_row7">
+          <mxGeometry x="30" y="0" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r0" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToOne;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_users_row0" target="phys_cadets_row1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="364" y="255.0" />
+              <mxPoint x="364" y="875.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r1" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToOne;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_users_row0" target="phys_instructors_row1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="364" y="255.0" />
+              <mxPoint x="364" y="145.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r2" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_categories_row0" target="phys_cadets_row2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="515.0" />
+              <mxPoint x="390" y="905.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r3" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_categories_row0" target="phys_cars_row4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="515.0" />
+              <mxPoint x="390" y="585.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r4" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_categories_row0" target="phys_instructors_row7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="515.0" />
+              <mxPoint x="390" y="325.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r5" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_categories_row0" target="phys_groups_row2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="515.0" />
+              <mxPoint x="390" y="30" />
+              <mxPoint x="916" y="30" />
+              <mxPoint x="916" y="175.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r6" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERzeroToOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_instructors_row0" target="phys_groups_row3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="127.0" />
+              <mxPoint x="810" y="205.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r7" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_instructors_row0" target="phys_lessons_row2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="115.0" />
+              <mxPoint x="810" y="535.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r8" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_cars_row0" target="phys_lessons_row3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="465.0" />
+              <mxPoint x="834" y="565.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r9" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_cadets_row0" target="phys_groups_row6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="845.0" />
+              <mxPoint x="858" y="295.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r10" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_cadets_row0" target="phys_lessons_row1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="845.0" />
+              <mxPoint x="858" y="505.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r11" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToOne;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_cadets_row0" target="phys_medical_certificates_row1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="845.0" />
+              <mxPoint x="858" y="880" />
+              <mxPoint x="1380" y="880" />
+              <mxPoint x="1380" y="145.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r12" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_cadets_row0" target="phys_exams_row1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="845.0" />
+              <mxPoint x="858" y="880" />
+              <mxPoint x="1380" y="880" />
+              <mxPoint x="1380" y="435.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phys_r13" style="edgeStyle=none;html=1;rounded=0;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;endSize=10;startSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="phys_cadets_row0" target="phys_payments_row1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="845.0" />
+              <mxPoint x="858" y="880" />
+              <mxPoint x="1380" y="880" />
+              <mxPoint x="1380" y="785.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

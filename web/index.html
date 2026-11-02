@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Информационная система автошколы">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3F51B5">
+  <title>Автошкола</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%233F51B5' d='M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.04 3H5.81l1.04-3zM19 17H5v-5h14v5z M7.5 16c.83 0 1.5-.67 1.5-1.5S8.33 13 7.5 13 6 13.67 6 14.5 6.67 16 7.5 16zm9 0c.83 0 1.5-.67 1.5-1.5S17.33 13 16.5 13s-1.5.67-1.5 1.5.67 1.5 1.5 1.5z'/%3E%3C/svg%3E">
+  <style>
+    html, body { margin: 0; height: 100%; background: #fdfbff; }
+    #splash {
+      position: fixed; inset: 0; z-index: 10;
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center; gap: 14px;
+      background: #fdfbff; color: #3f51b5;
+      font-family: Roboto, 'Segoe UI', Arial, sans-serif;
+      transition: opacity .25s ease;
+    }
+    #splash.hide { opacity: 0; pointer-events: none; }
+    #splash svg { width: 56px; height: 56px; fill: currentColor; }
+    #splash h1 { margin: 0; font-size: 28px; font-weight: 500; }
+    #splash p { margin: 0; font-size: 14px; color: #5b5d72; }
+    #splash .spin {
+      width: 36px; height: 36px; margin-top: 8px;
+      border: 4px solid #dfe0ff; border-top-color: #3f51b5; border-radius: 50%;
+      animation: splash-spin 0.9s linear infinite;
+    }
+    @keyframes splash-spin { to { transform: rotate(360deg); } }
+    @media (prefers-color-scheme: dark) {
+      html, body, #splash { background: #1b1b1f; }
+      #splash { color: #b9c3ff; }
+      #splash p { color: #c5c6d0; }
+      #splash .spin { border-color: #3a3c52; border-top-color: #b9c3ff; }
+    }
+    @media (prefers-reduced-motion: reduce) { #splash .spin { animation-duration: 3s; } }
+  </style>
+</head>
+<body>
+  <div id="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.04 3H5.81l1.04-3zM19 17H5v-5h14v5z M7.5 16c.83 0 1.5-.67 1.5-1.5S8.33 13 7.5 13 6 13.67 6 14.5 6.67 16 7.5 16zm9 0c.83 0 1.5-.67 1.5-1.5S17.33 13 16.5 13s-1.5.67-1.5 1.5.67 1.5 1.5 1.5z" role="status" aria-live="polite">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 11.55C9.64 9.35 6.48 8 3 8v11c3.48 0 6.64 1.35 9 3.55 2.36-2.19 5.52-3.55 9-3.55V8c-3.48 0-6.64 1.35-9 3.55zM12 8c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"/></svg>
+    <h1>Автошкола</h1>
+    <p>Загрузка приложения…</p>
+    <div class="spin" aria-hidden="true"></div>
+  </div>
+  <noscript>Для работы приложения нужен включённый JavaScript.</noscript>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var splash = document.getElementById('splash');
+      if (!splash) return;
+      splash.classList.add('hide');
+      setTimeout(function () { splash.remove(); }, 400);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

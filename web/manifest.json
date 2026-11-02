@@ -1,0 +1,12 @@
+{
+  "name": "Автошкола",
+  "short_name": "Автошкола",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#3F51B5",
+  "description": "Информационная система автошколы",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": []
+}
